@@ -1,0 +1,11 @@
+from random import randint
+
+szamok=[]
+
+def listaFeltolt(elemszam,alsoKuszob=20,felsoKuszob=100):
+    for i in range(0,elemszam):
+        szamok.append(randint(alsoKuszob,felsoKuszob))
+
+
+listaFeltolt(10,20,40)
+print(szamok)
